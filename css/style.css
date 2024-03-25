@@ -1,0 +1,88 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#infos h3 {
+  font-size: 26px;
+}
+
+#infos h4 {
+  font-size: 20px;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a :hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+
+#titulo{
+  padding-top: 40px;  
+}
+#pessoa {
+  width: 50%;
+  max-width: 200px;
+  background-color: #e2d9d9;
+  border-radius: 100%;
+}
+
+#infos {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  column-count: 2;
+}
+
+#infos h3 {
+  padding-top: 50px;
+}
+
+#info_pessoal {
+  border: #ffffff;
+  background-color: #ffffff;
+  text-align: center;
+  display: block;
+}
+
+#logo {
+  width: 7%;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+section {
+  border-top: solid #000;
+  border-width: 2px;
+  background-color: #ddd6d6;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#descritivo,
+#data {
+  margin: 1em;
+}
+
+#data {
+  font-weight: bold;
+}
+
+#competencias ul {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+#cursos_certifi ul {
+  column-count: 2;
+  column-gap: 20px;
+}
